@@ -1,0 +1,125 @@
+body {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 0 200px 0 200px;
+}
+
+.overview {
+  padding: 0 80px 0 0;
+}
+
+ul.a {
+  list-style-type: none;
+}
+li.nav {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-font {
+  font-size: 55px;
+  margin: 0 auto;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  color: black;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-centered {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #bb2e2e;
+  color: white;
+  border: 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.button-text {
+  font-size: 18px;
+}
+
+button {
+  background-color: #bb2e2e;
+  color: white;
+  border: 0;
+  padding: 8px 25px;
+}
+
+.red {
+  color: #bb2e2e;
+}
+.article {
+  display: flex;
+}
+.article img {
+  margin-right: 30px;
+  margin-top: 25px;
+}
+footer {
+  width: 100%;
+  height: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
